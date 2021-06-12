@@ -1,0 +1,9 @@
+package com.Udemy.collections;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		int [] numbers = new int [10];
+	}
+
+}

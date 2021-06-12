@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri May 21 13:12:19 IST 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\A714991\\eclipse-workspace\\SpringMVCDemmo\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.7-sources.jar=WEB-INF/lib/spring-web-5.3.7-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\A714991\\eclipse-workspace\\SpringMVCDemmo\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.7.jar=WEB-INF/lib/spring-web-5.3.7.jar

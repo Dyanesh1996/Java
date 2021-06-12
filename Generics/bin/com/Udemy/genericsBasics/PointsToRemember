@@ -1,0 +1,84 @@
+Generics benefits: 
+
+1-----> Type Safety - We can hold only a single type of objects in generics. It doesn?t allow to store other objects.
+Without Generics, we can store any type of objects.
+	List list = new ArrayList();    
+list.add(10);  
+list.add("10");  
+With Generics, it is required to specify the type of object we need to store.  
+List<Integer> list = new ArrayList<Integer>();    
+list.add(10);  
+list.add("10");// compile-time error  
+
+2------> Type casting is not required: There is no need to typecast the object.
+Before Generics, we need to type cast.
+
+List list = new ArrayList();    
+list.add("hello");    
+String s = (String) list.get(0);//typecasting    
+After Generics, we don't need to typecast the object.  
+List<String> list = new ArrayList<String>();    
+list.add("hello");    
+String s = list.get(0);     
+
+
+
+
+
+------Generics practical example------------------
+
+Suppose u wanna create an MyIntegerClass that prints out integers.
+Then a MyClassDouble that prints out double stuff. Then a String 
+class, float and so on.
+
+-----------MyIntegerClass----------------
+package com.Udemy.genericsBasics;
+
+public class MyClassInteger {
+	Integer i;
+
+	public MyClassInteger(Integer i) {
+		super();
+		this.i = i;
+	}
+	
+	public void printStuff() {
+		System.out.println(i);
+	}
+
+}
+
+-----------MyDoubleClass----------------
+
+package com.Udemy.genericsBasics;
+
+public class MyClassDouble {
+	Double i;
+
+	public MyClassDouble(Double i) {
+		super();
+		this.i = i;
+	}
+	
+	public void printStuff() {
+		System.out.println(i);
+	} 
+}
+
+
+
+
+The problem is : we're creating duplicate code for just different data types. 
+To avoid that, use GENERICS. 
+
+Create a single class that can have data of any datatype.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+---------AUTOBOXING AND UNBOXING THEORY-----------
+
+
+- conversion of classes and primitives into each other
+
+- Arraylist expects classes as it's parameters and not primitive types.
+	e.g. Arraylist cannot store integers in a straightforward manner like it does the String values.
+	coz 'String' is a class and 'int' is primitive type
+	
+	
+	
+--------Autoboxing -------	
+
+Converting primitive type into instance
+	e.g.: 	Integer myInt = new Integer(30);
+		--> Integer myInt = Integer.valueOf(30);	//compiler does this.
+			

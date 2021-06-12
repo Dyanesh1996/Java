@@ -1,0 +1,18 @@
+package com.Udemy.ListAndArrayList;
+
+import java.util.Scanner;
+
+public class MainOfGrocery {
+	
+	private static Scanner sc = new Scanner(System.in);
+	private static GroceryList groceryList = new GroceryList();
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

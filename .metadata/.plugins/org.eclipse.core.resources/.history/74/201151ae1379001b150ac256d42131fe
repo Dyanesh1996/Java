@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class readingUserInput {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your name please : ");
+		String name = sc.nextLine();
+		System.out.println("Your name is : " + name);
+		
+		System.out.println("What's your year of birth ?");
+		int yearOfBirth = sc.nextInt();
+		
+		int age = 2020 - yearOfBirth;
+		System.out.println("Your age is : " + age);
+		sc.close();
+	}
+
+}

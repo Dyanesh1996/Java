@@ -1,0 +1,27 @@
+//This is another way(along with Iterator) of printing elements of Array or ArrayList.
+
+//Enhanced for loop print elements of array directly and doesn't print element using index of an array
+
+
+package com.Udemy.collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class EnhancedForLoop {
+
+	public static void main(String[] args) {
+		
+		Collection cl = new ArrayList();
+		
+		cl.add(10);
+		cl.add("Dnyanesh");
+		cl.add(12.5);
+		
+		for(int i : cl) {
+			System.out.println(i);
+		}
+		
+	}
+
+}

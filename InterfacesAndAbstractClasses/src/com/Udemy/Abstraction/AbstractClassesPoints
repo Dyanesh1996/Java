@@ -1,0 +1,19 @@
+- Concept is very similar to Inheritance except the use of abstract keyword.(All possible common
+ functionalities are written in one class and we create other classes which require specific methods
+ and extend them to this abstract class.)
+
+- Abstract classes serves the purpose of hiding implementation(similar to interfaces) 
+  while Encapsulation hides information.
+
+
+- 0 to 100% abstraction can be achieved using Abstract classes. While using interfaces, 
+  100% abstraction can be achieved.
+
+- We only declare methods in abstract class and implement them in some other class that
+  extends to this abstract class.
+  
+- A class with at least one abstract method is an abstract class.
+
+- We cannot create object of Abstract class/Interface
+
+- 'extends' keyword is used.

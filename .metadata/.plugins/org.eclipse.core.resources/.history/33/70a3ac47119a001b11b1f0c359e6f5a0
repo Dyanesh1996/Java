@@ -1,0 +1,12 @@
+package com.oops.encapsulation;
+
+public class PrinterMain {
+
+	public static void main(String[] args) {
+		Printer printer = new Printer(50, 30, true);
+		printer.fillToner(30);
+		System.out.println("Current toner level of printer is :" + printer.getTonerLevel());
+		
+	}
+
+}

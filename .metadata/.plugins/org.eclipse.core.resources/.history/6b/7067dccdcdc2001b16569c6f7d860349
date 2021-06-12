@@ -1,0 +1,22 @@
+/*
+ * Throwable----> Super class of all the exceptions
+ * 	
+ * 	Throwable 
+ * 			- Exception class
+ * 			- Error class
+ * 
+ * 
+ * 
+ */
+
+
+
+package com.telusko.exceptionHandling;
+
+public class DemoException {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

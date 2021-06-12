@@ -1,0 +1,9 @@
+package com.udemy.linkedList;
+
+public class MainOfCustomer {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer("Dny", 93.58);
+	}
+
+}

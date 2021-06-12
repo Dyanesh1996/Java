@@ -1,0 +1,31 @@
+
+public class FlourPaclProblem {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public static boolean canPack(int bigCount, int smallCount, int goal) {
+		
+			int sum = bigCount + smallCount;
+			if(goal <= sum) {
+				
+				System.out.println("Possible to pack");
+				return true;
+			}else if (bigCount > 5 || smallCount < 1){
+				
+				System.out.println("Can't be packed");
+				return false;
+				
+			}
+				
+		
+		
+	}
+		
+		
+
+
+}

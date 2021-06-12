@@ -1,0 +1,37 @@
+package com.Udemy.collections;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		int [] numbers = new int [10];
+		Object [] values = new Object [5];
+		values [3] = "Dnyanesh";
+		values [2] = 5;
+		
+		for(int i = 0; i < values.length; i++) {
+			System.out.println(values [i] );
+		}
+		
+		Collection values2 = new ArrayList();
+		//collection can have all types of values.
+		values2.add(3);
+		values2.add("Dny");
+		values2.add(5.6f);
+		
+		
+		//How to print this collection ? --> Use Iterator or Enhanced for loop
+		
+		Iterator it = values2.iterator();
+		while(it.hasNext()) {
+			System.out.println(" values are : " + it.next());
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+/*
+ * 	Steps : 
+ * 	1 - import the package --> java.sql
+ * 	2 - Load and register the driver --> com.mysql.jdbc.Driver 
+ * 	3 - Create connection --> Create object of Connection interface
+ * 	4 - Create Statement  --> Create object of Statement interface
+ * 	5 - Execute query
+ * 	6 - Process the results
+ * 	7 - Close
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+package com.telusko.jdbc;
+
+
+import java.sql.*;
+
+public class JdbcDemo {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		
+		String url = "":
+		String uname = "root";
+		String pwd = "";
+		
+		
+		Class.forName("com.mysql.jdbc.Driver");		//to load the Driver class
+		Connection con = DriverManager.getConnection(url, uname, pwd)
+		
+		
+	}
+
+}

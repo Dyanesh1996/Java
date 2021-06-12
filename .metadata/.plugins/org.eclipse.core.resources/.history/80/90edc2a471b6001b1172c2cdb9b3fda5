@@ -1,0 +1,9 @@
+package com.telusko.SpringAppWithAnnotationBasedApproach;
+
+public class Intel implements MobileProcessor {
+
+	public void process() {
+		System.out.println("Another CPU manufactured by Intel");
+	}
+
+}

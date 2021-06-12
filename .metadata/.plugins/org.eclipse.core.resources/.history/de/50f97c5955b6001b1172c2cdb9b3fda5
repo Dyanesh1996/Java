@@ -1,0 +1,7 @@
+package com.telusko.SpringAppWithAnnotationBasedApproach;
+
+public class Apple {
+	public void config() {
+		System.out.println("Octa Core, 4GB RAM");
+	}
+}

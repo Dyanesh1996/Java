@@ -1,0 +1,35 @@
+//Using List instead of collection because we can add element at particular index here.
+
+
+
+package com.Udemy.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class WhyToUseListInsteadOfCollection {
+
+	public static void main(String[] args) {
+		
+		List values = new ArrayList();
+		values.add(10);
+		values.add("Dnyanesh");
+		values.add(1.45);
+		
+		
+		//How would we add value 5 after 10 ??
+		values.add(1, 5);
+		
+		
+		
+		
+		
+		
+		//Let's print the above list using enhanced for loop or iterator
+		for(Object i : values) {
+			System.out.println(i);
+		}
+	
+	}
+
+}

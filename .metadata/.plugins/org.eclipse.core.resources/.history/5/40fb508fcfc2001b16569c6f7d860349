@@ -1,0 +1,44 @@
+/*
+ * Throwable----> Super class of all the exceptions
+ * 	
+ * 	Throwable :
+ * 			- Exception class(Can be handled)
+ * 						- Checked
+ * 								- IOException
+ * 								- SQLException
+ * 						- Unchecked
+ * 								- All Runtime exceptions like : 
+ * 										- ArrayIndexOutOfBoundsException
+ * 										- FileNotFoundExceptions
+ * 			- Error class(Can't be handled)
+ * 
+ * 
+ * 
+ */
+
+
+
+package com.telusko.exceptionHandling;
+
+public class DemoException {
+
+	public static void main(String[] args) {
+		
+		
+		int i, j, k=0;
+		i = 8;
+		j = 0;
+		
+		try {
+			k = i/j;
+		}
+		
+		catch(Exception e){							//Or we can write ArithmaticException ae in the catch block
+			System.out.println("Cannot divide by zero");		//Unchecked exception
+		}
+		
+		System.out.println(k);
+		
+	}
+
+}

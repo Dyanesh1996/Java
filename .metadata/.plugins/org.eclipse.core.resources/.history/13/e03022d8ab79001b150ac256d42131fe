@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args) {
+			
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the number of Cigars");
+		int numOfCigars = sc.nextInt();
+		
+		System.out.println("Is it the weekend ?");
+		String cigar = sc.nextLine();
+		
+	}
+
+}

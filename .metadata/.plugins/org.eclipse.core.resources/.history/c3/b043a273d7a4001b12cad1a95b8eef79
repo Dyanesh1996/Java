@@ -1,0 +1,17 @@
+package com.Udemy.ListAndArrayList;
+
+import java.util.ArrayList;
+
+public class AutoboxingAndUnboxing {
+
+	public static void main(String[] args) {
+		String [] strArray = new String[10];
+		int [] intArray = new int [10];
+		
+		ArrayList<String> strArrayList = new ArrayList<String>();
+		strArrayList.add("Dnyanesh");
+		
+		ArrayList<Integer> intArrayList = new ArrayList<Integer>();
+	}
+
+}

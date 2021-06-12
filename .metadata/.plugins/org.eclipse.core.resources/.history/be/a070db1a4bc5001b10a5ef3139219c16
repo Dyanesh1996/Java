@@ -1,0 +1,7 @@
+package com.telusko.JunitMockito.JUnitDemo;
+
+import junit.framework.TestCase;
+
+public class TestCalculator extends TestCase {
+
+}

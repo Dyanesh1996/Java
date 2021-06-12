@@ -1,0 +1,16 @@
+package com.Udemy.Generics;
+
+public class MainOfGames {
+
+	public static void main(String[] args) {
+		FootballPlayer Joe = new FootballPlayer("Joe");
+		BaseballPlayer John = new BaseballPlayer("John");
+		CricketPlayer Steve = new CricketPlayer("Steve");	
+		
+		Team adelaideCrows = new Team("Adelaide Crows");
+		adelaideCrows.addPlayer(Joe);
+		adelaideCrows.addPlayer(John);
+		adelaideCrows.addPlayer(Steve);
+	}
+
+}

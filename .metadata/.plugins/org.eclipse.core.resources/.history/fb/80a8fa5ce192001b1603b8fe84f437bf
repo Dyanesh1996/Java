@@ -1,0 +1,42 @@
+package com.oops.inheritance;
+
+public class ConstructorChainingExample {
+	
+	private int x;
+	private int y;
+	private int length;
+	private int width;
+	
+	
+	
+	//1st constructor
+	public ConstructorChainingExample() {
+		this(0,0);						//calls 2nd constructor
+	}
+	
+	
+	
+	//2nd constructor
+	public ConstructorChainingExample(int x, int y) {
+		this(0, 0, 3, 5);				//calls 3rd constructor
+	}
+	
+	
+	//3rd constructor
+	public ConstructorChainingExample(int x, int y, int length, int width) {
+		//initialize variables
+		this.x = x;
+		this.y = y;
+		this.length = length;
+		this.width = width;
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

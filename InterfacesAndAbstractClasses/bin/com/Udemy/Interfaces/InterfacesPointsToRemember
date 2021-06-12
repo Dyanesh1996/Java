@@ -1,0 +1,19 @@
+Interfaces : 
+
+- Interfaces serves the purpose of hiding implementation(Similar to Abstract classes) 
+  while Encapsulation hides the information.
+  
+- 100% abstraction can be achieved using Interfaces. 
+
+- We cannot create object of an Interface. Hence, we create new class that implements this interface.
+
+- 'implements' keyword is used.
+
+
+- We only declare the methods in interface and implement all of them in another class.
+	e.g: Interface --> ITelephone --> has 4 declared methods
+
+- Another class should implement to this interface and should have all the methods of Interface.
+	e.g: Class DeskPhone implements ITelephone
+	
+So IN A NUTSHELL, we don't write any functionality to methods in interface, we just declare them

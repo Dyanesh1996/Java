@@ -1,0 +1,19 @@
+/*
+ * Suppose u r lazy enough to write the try-catch blocks that handle exceptions, 
+ * just use "throws" keyword.
+ * 
+ * throws --> suppress the exception and doesn't handle it 
+ * 
+ */
+
+
+package com.telusko.exceptionHandling;
+
+public class ThrowVsThrows {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

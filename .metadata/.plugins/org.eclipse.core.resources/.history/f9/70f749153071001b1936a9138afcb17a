@@ -1,0 +1,26 @@
+
+public class perfectNumberChallenge {
+
+	public static void main(String[] args) {
+		
+		System.out.println(isPerfectNumber(100));//isPerfectNumber(100);
+		
+	}
+	
+	public static boolean isPerfectNumber(int number) {
+		int sum = 0;
+
+		if(number >0) {
+			
+			for(int n = 1; n < number; n++) {
+				if (number % n ==0) {
+					
+					sum += n;					
+					return true;
+				}
+			}
+			
+		}	
+			return false;		
+	}
+}

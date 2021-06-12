@@ -1,0 +1,26 @@
+
+public class greatestCommonDivisorChallenge {
+
+	public static void main(String[] args) {
+		
+		System.out.println(getGreatestCommonDivisor(10, 50));
+		
+	}
+	
+	
+	public static int getGreatestCommonDivisor(int num1, int num2) {
+		
+		if(num1 >=10 && num2 >= 10) {
+			
+			int smallerNumber = Math.min(num1, num2);
+				for(int gcd = smallerNumber; gcd >0; gcd--) {
+					
+					if((num1 % gcd == 0) && (num2 % gcd == 0)){
+						
+						return gcd;
+					}	
+				}	
+			}
+			return -1;		
+	}
+}

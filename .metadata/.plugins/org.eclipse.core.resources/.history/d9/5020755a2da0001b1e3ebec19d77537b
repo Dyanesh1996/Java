@@ -1,0 +1,43 @@
+package com.Udemy.arrays;
+import java.util.Scanner;
+
+public class Challenge {
+	
+	public static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		int [] returnedArray  = getIntegers(5);
+		for(int i=0; i<returnedArray.length; i++) {
+			System.out.println("Element" + i + " has value : " + returnedArray[i]);
+		}
+		
+		
+		
+	}
+
+	public static int [] getIntegers(int number) {
+		System.out.println("Enter " + number + " values");
+		int [] values = new int[number];
+		for(int i = 0; i < values.length; i++) {
+			values[i] = sc.nextInt(); 
+		}
+		
+		return values;
+		
+	}
+	
+	public static int[] printArray(int [] array) {
+		return array;
+	}
+	
+	public static int [] sortedArray(int [] array) {
+		int min = 0;
+		for(int i = 0; i< array.length; i++) {
+			
+		}
+	}
+	
+	
+	
+	
+}

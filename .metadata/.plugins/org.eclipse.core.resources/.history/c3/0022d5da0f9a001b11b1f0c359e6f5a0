@@ -1,0 +1,22 @@
+package com.oops.encapsulation;
+
+public class Printer {
+	private int tonerLevel;
+	private int numberOfPagesPrinted;
+	private boolean isDuplexPrinter;
+	
+	public Printer(int tonerLevel, int numberOfPagesPrinted, boolean isDuplexPrinter) {
+		this.tonerLevel = tonerLevel;
+		this.numberOfPagesPrinted = numberOfPagesPrinted;
+		this.isDuplexPrinter = isDuplexPrinter;
+	}
+	
+	public void fillToner() {
+		System.out.println("Toner level" + tonerLevel + " is at it's maximum capacity");
+	}
+	
+	public int printPages() {
+		return numberOfPagesPrinted;
+	}
+
+}

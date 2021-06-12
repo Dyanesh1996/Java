@@ -1,0 +1,19 @@
+//Using List instead of collection because we can add element at particular index here.
+
+
+
+package com.Udemy.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class WhyToUseListInsteadOfCollection {
+
+	public static void main(String[] args) {
+		
+		List values = new ArrayList();
+		
+		
+	}
+
+}

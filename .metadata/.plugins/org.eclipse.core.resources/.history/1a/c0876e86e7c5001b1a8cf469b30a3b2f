@@ -1,0 +1,22 @@
+package com.db.awmd.challenge;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.telusko.SpringAppWithAnnotationBasedApproach.AppConfig;
+
+@SpringBootApplication
+public class DevChallengeApplication {
+
+  public static void main(String[] args) {
+	  
+	 ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);  
+	  
+    SpringApplication.run(DevChallengeApplication.class, args);
+    
+    
+  }
+  
+}

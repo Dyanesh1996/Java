@@ -1,0 +1,29 @@
+Collections --> List(an interface), ArrayList(a class that implements List),
+				Set(an interface), Hashset(a class that implements Set),
+				Map(an interface), Hashmap(a class that implements Map).
+
+				
+List-------				
+	- Can have duplicate values.
+	- The order of getting list elements is fixed.
+	
+	
+	
+Set--------	
+	- Cannot have duplicate values. Every element is unique.	
+	- Order of getting elements from set is random
+	
+	
+Map--------
+	- Stores values in key, values format.
+	- Can have same value but can't have same key.
+	- Hashmap is most commonly used class of Map interface.
+	- Map entry is used to fetch entire map with keys and values.
+	
+	
+TreeSet------
+	- Gets values in sorted order.
+
+	
+	
+	

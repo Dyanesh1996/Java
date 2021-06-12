@@ -1,0 +1,13 @@
+package com.oops.inheritance;
+
+public class Car extends Vehicle {
+	
+	private int autogear;
+	private int foglights;
+	private int steeringControls;
+	
+		
+	
+	
+	
+}

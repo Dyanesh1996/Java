@@ -1,0 +1,13 @@
+package com.oops.newPack;
+
+public class CarpetCostCalc {
+
+	public static void main(String[] args) {
+		
+			Carpet cp =  new Carpet(3.5);
+			Floor fl = new Floor(10.8, 2.3)
+		
+		
+	}
+
+}

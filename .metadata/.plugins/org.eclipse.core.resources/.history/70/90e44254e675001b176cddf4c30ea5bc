@@ -1,0 +1,12 @@
+
+public class parseStringValues {
+
+	public static void main(String[] args) {
+		String numberAsString = "1234";
+		
+		System.out.println("numberAsString : " + numberAsString);
+		
+		int number = Integer.parseInt(numberAsString);
+	}
+
+}

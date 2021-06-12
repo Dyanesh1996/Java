@@ -1,0 +1,27 @@
+
+public class AllFactorsChallenge {
+
+	public static void main(String[] args) {	
+		
+		printFactors(100);
+		printFactors(25);
+		
+		
+		
+	}
+	public static void printFactors(int number) {
+		if(number < 0) {
+			System.out.println("Invalid Value");
+			
+		}
+		else {
+			for(int n=1; n<= number; n++) {
+			
+				if(n % number == 0) {
+				
+					System.out.print("The factors for number " + number + " are : " + n);	
+			}
+		}
+	   }
+	}	
+}

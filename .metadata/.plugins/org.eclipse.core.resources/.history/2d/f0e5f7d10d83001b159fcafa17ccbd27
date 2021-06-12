@@ -1,0 +1,16 @@
+package com.oops;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Car porsche = new Car();
+		Car celerio = new Car();
+		
+		celerio.setModel("ZXI AMT");
+		
+		
+		System.out.println(""+ celerio.getModel());
+	}
+
+}

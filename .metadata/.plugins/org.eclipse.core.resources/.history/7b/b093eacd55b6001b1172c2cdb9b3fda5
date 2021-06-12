@@ -1,0 +1,13 @@
+package com.telusko.SpringAppWithAnnotationBasedApproach;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	
+	public Apple getPhone() {
+		return new Apple();
+	} 
+	
+	
+}

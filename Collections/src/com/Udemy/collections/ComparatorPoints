@@ -1,0 +1,18 @@
+If you want to sort elements of arraylist in your own way, use comparator
+--> Collections.sort(arraylist<T>, comparator<T>);
+
+
+But comparator is an interface and we cannot create an object of interface.
+Hence create a class that implements comparator and create object of that class.
+
+
+		OR
+		
+		
+Short Cut : 
+
+	Directly write a method in comparator using lambda functions
+	
+	Collections.sort(arraylist, (s1, s2) - > {
+		return s1.marks > s2.marks ? -1 : s1.marks < s2.marks ? 1 : 0;
+	}		

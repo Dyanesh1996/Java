@@ -1,0 +1,17 @@
+/*
+ * BufferedReader and Scanner both are used for reading user input
+ * 
+ */
+
+
+
+package com.telusko.StringBuffer;
+
+public class DemoStringBuffer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

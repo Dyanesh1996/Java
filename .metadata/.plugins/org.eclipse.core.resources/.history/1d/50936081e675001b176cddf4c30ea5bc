@@ -1,0 +1,13 @@
+
+public class parseStringValues {
+
+	public static void main(String[] args) {
+		String numberAsString = "dnyanesh";
+		
+		System.out.println("numberAsString : " + numberAsString);
+		
+		int number = Integer.parseInt(numberAsString);
+		System.out.println(number);
+	}
+
+}

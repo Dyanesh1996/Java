@@ -1,0 +1,25 @@
+/*
+ * 	Steps : 
+ * 	1 - import the package --> java.sql
+ * 	2 - Load and register the driver --> com.mysql.jdbc.Driver 
+ * 	3 - Create connection --> Create object of connection interface
+ * 	4 - Create Statement  --> Create object of statement interface
+ * 	5 - Execute query
+ * 	6 - Process the results
+ * 	7 - Close
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+package com.telusko.jdbc;
+
+public class JdbcDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

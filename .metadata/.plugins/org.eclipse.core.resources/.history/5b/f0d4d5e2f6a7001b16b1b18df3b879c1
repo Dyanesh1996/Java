@@ -1,0 +1,40 @@
+package com.udemy.linkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LinkedListDemo {
+
+	public static void main(String[] args) {
+		LinkedList<String> placesToVisit = new LinkedList<String>();
+		placesToVisit.add("Perth");
+		placesToVisit.add("Melbourne");
+		placesToVisit.add("Rome");
+		placesToVisit.add("Venice");
+		placesToVisit.add("Hampi");
+		placesToVisit.add("NYC");
+		placesToVisit.add("Dallas");
+		placesToVisit.add("London");
+		
+		printList(placesToVisit);
+		placesToVisit.add(1, "Amsterdam");
+		printList(placesToVisit);
+		
+		placesToVisit.equals("NYC");
+		printList(placesToVisit);
+
+		
+		
+	}
+	
+	private static void printList(LinkedList<String> linkedList) {
+		Iterator<String> it = linkedList.iterator();
+		while(it.hasNext()) {		
+			System.out.println("Now visiting : " + it.next());
+		}
+		
+		System.out.println("===============================");
+		
+	}
+
+}

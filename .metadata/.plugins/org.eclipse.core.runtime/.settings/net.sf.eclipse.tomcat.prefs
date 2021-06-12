@@ -1,0 +1,9 @@
+contextsDir=C\:\\Users\\A714991\\apache-tomcat-8.0.36\\bin\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+projectsInCp=SpringMVC;
+projectsInSourcePath=Arrays;Collections;Composition;Concurrency;ControlFlowStatementsFORLOOP;ControlFlowStatementsWHILELOOP;Encapsulation;Exercises;Generics;Inheritance;InterfacesAndAbstractClasses;Java8Features;LinkedList;ListsAndArrayList;MethodOverloading;OOPS;ParsingValuesFromString;Polymorphism;ReadingUserInput;SampleMavenSpringProj;SpringAOP;SpringAppWithAnnotationBasedApproach;SpringMVC;
+tomcatConfigFile=C\:\\Users\\A714991\\apache-tomcat-8.0.36\\bin\\conf\\server.xml
+tomcatDir=C\:\\Users\\A714991\\apache-tomcat-8.0.36\\bin
+tomcatJRE=1611216144480
+tomcatVersion=tomcatV8

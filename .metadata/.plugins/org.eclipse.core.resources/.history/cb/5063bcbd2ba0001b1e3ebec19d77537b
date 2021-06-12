@@ -1,0 +1,23 @@
+package com.Udemy.arrays;
+import java.util.Scanner;
+
+public class Challenge {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+	}
+
+	public static int [] getIntegers(int number) {
+		
+		int [] values = new int[number];
+		
+		
+		
+	}
+	
+	
+	
+}

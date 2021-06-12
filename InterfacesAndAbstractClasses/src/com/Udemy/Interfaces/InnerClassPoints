@@ -1,0 +1,10 @@
+---------------INNER CLASS----------------
+
+
+We cannot create object of an interface. Hence we usually create another class 
+that implements this interface and we create object of that class. And then we
+write methods in that class.
+
+
+
+To avoid creating extra class, just create object of comparator and write method in it.

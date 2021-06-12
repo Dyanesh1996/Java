@@ -1,0 +1,99 @@
+package com.Udemy.ListAndArrayList;
+
+import java.util.Scanner;
+
+public class MainOfGrocery {
+	
+	private static Scanner sc = new Scanner(System.in);
+	private static GroceryList groceryList = new GroceryList();
+	
+
+	public static void main(String[] args) {
+		boolean quit = false;
+		int choice = 0;
+		printInstructions();
+		while(!quit) {
+			System.out.println("Enter your choice ");
+			choice = sc.nextInt();
+			sc.hasNextLine();
+			
+			switch(choice) {
+				case 0 : 
+					printInstructions();
+					break;
+					
+				case 1 : 
+					groceryList.printGroceryList();
+					break;
+				
+				case 2: 
+					addItem();
+					break;
+					
+				case 3: 
+					modifyItem();
+					break;
+					
+				case 4: 
+					removeItem();
+					break;
+					
+				case 5 : 
+					searchItem();
+					break;
+					
+				case 6 :
+					quit = true;
+					break;
+					
+			}		
+		}		
+	}
+	
+	
+	
+		public void printInstructions() {
+			System.out.println("\n Press ");
+			System.out.println("\t 0 - To print choice options ");
+			System.out.println("\t 1 - To print the list of Grocery items ");
+			System.out.println("\t 2 - To add an item to the list ");
+			System.out.println("\t 3 - To modify an item in the list");
+			System.out.println("\t 4 - To remove an item frm the list ");
+			System.out.println("\t 5 - To search for an item in the list ");
+			System.out.println("\t 6 - To quit the application ");
+		}
+		
+		
+		public static void addItem() {
+			System.out.println("Enter grocery item to be added : ");
+			groceryList.addGroceryItems(sc.nextLine());
+		}
+		
+		public static void modifyItem() {
+			System.out.println("Enter grocery item number to be modified : ");
+			int itemNumber = sc.nextInt();
+			sc.hasNextLine();
+			System.out.println("Enter replcement item");
+			String newItem = sc.nextLine();
+			groceryList.modifyGroceryList(itemNumber - 1, newItem);
+			System.out.println("New item " + newItem + " has been added to the list at " + itemNumber + " position");
+			
+		}
+		
+		public static void removeItem() {
+			System.out.println("Enter the item number to be removed ");
+			int itemNumber = sc.nextInt();
+			sc.hasNextLine();
+			groceryList.removeGroceryItem(itemNumber);
+			System.out.println("Item number from position " + itemNumber + " has been removed");
+		}
+		
+		public static void searchItem() {
+			System.out.println("Enter the item number to be searched ");
+			int itemNumber = sc.nextInt();
+			sc.hasNextLine();
+			groceryList.searchItem(itemNumber);
+		}
+		
+
+}

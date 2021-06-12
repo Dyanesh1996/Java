@@ -1,0 +1,15 @@
+/*	
+	- Runnable is another way of creating a thread.
+
+*/
+
+package com.java.concurrency;
+
+public class MyRunnable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

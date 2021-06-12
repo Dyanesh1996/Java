@@ -1,0 +1,12 @@
+package com.Udemy.collections;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		int [] numbers = new int [10];
+		Student [] values = new Student [5];
+		values [3] = "Dnyanesh";
+		
+	}
+
+}

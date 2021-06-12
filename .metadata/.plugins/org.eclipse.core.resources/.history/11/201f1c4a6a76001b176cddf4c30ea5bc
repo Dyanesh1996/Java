@@ -1,0 +1,27 @@
+
+public class FlourPaclProblem {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public static boolean canPack(int bigCount, int smallCount, int goal) {
+			
+			int kilosOfBigCount, kilosOfSmallCount;
+			
+			kilosOfBigCount = 5 * bigCount ;
+			kilosOfSmallCount = 1 * smallCount;
+			
+			int sumOfKilos = kilosOfBigCount + kilosOfSmallCount;
+			
+				
+		
+		
+	}
+		
+		
+
+
+}

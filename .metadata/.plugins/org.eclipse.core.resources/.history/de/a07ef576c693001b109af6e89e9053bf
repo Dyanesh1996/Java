@@ -1,0 +1,18 @@
+package com.oops.inheritance;
+
+public class Celerio {
+	
+	public void playMusic(boolean bluetooth) {
+		if(bluetooth = true) {
+			System.out.println("Yeeee,,sounds on!!!");
+		}else {
+			System.out.println("Can't play music");
+		}
+		
+		
+		public void changegears(int geaknob) {
+			
+		}
+	}
+	
+}

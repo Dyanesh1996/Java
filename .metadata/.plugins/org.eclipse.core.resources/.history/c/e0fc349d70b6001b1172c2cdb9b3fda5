@@ -1,0 +1,23 @@
+package com.telusko.SpringAppWithAnnotationBasedApproach;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	
+	@Bean							//Use this otherwise Spring will not find bean(We can make use of @Component to avoid manual creations of beans)
+	
+	public Apple getPhone() {		//Because this method needs to return an object of
+									//Apple to pass to AnnotationConfigApplicationContext
+		return new Apple();
+	} 
+	
+	@Bean							//We can make use of @Component to avoid manual creations of beans
+	public MobileProcessor getProcessor() {
+		return new Snapdragon();
+	}
+	
+	
+}
