@@ -3,8 +3,8 @@
  * 1. Cannot change values of String variable once object is created
  * 2. Cannot use setter method to set the new value.
  * 
- * Hence, use StringBuffer or StringBuilder to make String mutable
- * Both are same except StringBuffer is thread safe and builder is not
+ * Hence, use StringBuffer or StringBuilder to make String mutable.
+ * Both are same except StringBuffer is thread safe and builder is not.
  * Thread safety -> one thread can be used by multiple threads
  * 
  */

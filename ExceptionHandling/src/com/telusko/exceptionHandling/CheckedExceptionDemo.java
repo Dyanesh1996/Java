@@ -1,5 +1,5 @@
 /*
- * Throwable----> Super class of all the exceptions
+ * Throwable----> Super class of all the exceptions and Errors
  * 	
  * 	Throwable :
  * 			- Exception class(Can be handled)

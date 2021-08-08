@@ -14,7 +14,7 @@ public class FinalKeywordDemo {
 		//final variable
 		final int i = 5;
 		//i++;					//final is used so value of i can't be changed.
-		// = 6;					//final is used so value of i can't be changed.
+		// i= 6;					//final is used so value of i can't be changed.
 		System.out.println(i);
 		
 	}

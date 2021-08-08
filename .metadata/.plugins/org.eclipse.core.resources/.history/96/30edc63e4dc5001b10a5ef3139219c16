@@ -1,9 +1,0 @@
-package com.telusko.JunitMockito.JUnitDemo;
-
-public interface CalculatorService {
-
-		CalculatorService service;
-	
-		public int add(int i, int j);
-
-}

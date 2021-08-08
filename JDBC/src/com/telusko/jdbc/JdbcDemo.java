@@ -9,10 +9,7 @@
  * 	7 - Close
  * 
  * 
- * 
- * 
  */
-
 
 package com.telusko.jdbc;
 
@@ -34,7 +31,7 @@ public class JdbcDemo {
 																		class that returns object of Connection*/
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery(query);
-		String name = rs.getString(2);				//2 is cplumn index
+		String name = rs.getString(2);				//2 is column index of table in DB
 		rs.next();									
 		System.out.println(name);
 		st.close();
